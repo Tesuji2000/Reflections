@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	git init  -->  creates a hidden file named  .git  which will be used to track files in the present directory
+	git status  --> generates info about the repository
+	git log  --->  lists history of  " git commits "
+	git add   <files>   puts files in a " staging area " ---> ready to be " commited "
+	
+How is the staging area different from the working directory and the repository?
+	What value do you think it offers?
+	
+	the staging area appears to be temporary 
+	it allows control of which files are related for a single " commit "
+	this means files can be commited individually or in groups  or   not put in the repository at all
