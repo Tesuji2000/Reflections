@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	shows only lines that have changes --> eliminates the need to visually scan all lines in two files to find 
+	those that have changes.
+
+	made it much easier to find changes which contained the bug.
+	
+	learned how to set-up  git and reviewed/remembered some unix commands 
+
+How could having easy access to the entire history of a file make you a more efficient programmer
+	in the long term?
+
+	able to see how the file had changed and evolved over time
+		both in content and in structure
+	
+	can observe evolution of style and understanding
+	
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+	vs having versions automatically saved, like Google docs does?
+	
+	good --> definitely need to save when I want to.
+	bad --> auto-saving is too often --- what about changing then realizing
+		it was wrong and restoring most of change   history would be too messy to look through
+	good --> ability to brake down changes based on which part of code was changed 
+		logic, new feature, variables, comments, ....
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+	while others, like Google Docs, treat each file separately?
+	
+	clearly coding often requires changes in several files ... especially when rather large changes occur
+		eg. early in a project or when re-writing or re-factoring or adding functionality.
+		
+How can you use the commands git log and git diff to view the history of files?
+
+	git log :   shows all commits
+	git diff : id#n id#(n-1) shows all changes made to id#n   red --> deletions, green --> additions
+
+How might using version control make you more confident to make changes that could break something?
+
+	not so afraid to try things even though they may require changes in several different areas
+		--- as long as you commit and comment the commit at the right times
+
+	be sure to keep the most recent id#'s  ( or keep the terminal open to the original  git log  listing )
+	
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	first:  to learn to use git.
+	second:  to use it to keep track of various programs/projects changes etc.
+	third:   can I use it for a central repository for code from eclipse, netbeans, processing ?????
