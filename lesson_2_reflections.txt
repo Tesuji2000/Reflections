@@ -11,3 +11,43 @@ How is the staging area different from the working directory and the repository?
 	the staging area appears to be temporary 
 	it allows control of which files are related for a single " commit "
 	this means files can be commited individually or in groups  or   not put in the repository at all
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	git diff     shows differences between working directory and the staging area
+	git diff --staged    shows differences between staging area and repository
+	dit diff   commit1 commit2   shows changes from commit1 to commit2  
+
+	git add  file   puts individual files into staging area
+
+	git commit  moves files from staging area into repository
+	
+What are some situations when branches would be helpful in keeping your history organized?
+	How would branches help?
+	
+	major revisions
+	changes in logic
+	new additions to explore other " branches ", ideas, features, ...
+	
+How do the diagrams help you visualize the branch structure?
+
+	diagrams are far better than lists  --->  branches can get very complex 
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	by showing the branches separately, and then joined, we can better see what happened and the resolution
+	diagram shows commits ordered by time added so we can track when each was added
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	computer does the merging so less likely to miss some changes ( and end up with a real mess ---> start over)
+	auto merge can run into conflicting changes ,  also may merge unwanted data ( be careful !! )
+	
+
+	
+
+
+	
+
+	
+	
